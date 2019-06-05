@@ -59,3 +59,6 @@ Copyright
 ---
 
 Copyright (c) Embedthis Software. All Rights Reserved.  Embedthis and ESP are trademarks of Embedthis Software, LLC. Other brands and their products are trademarks of their respective holders.
+
+how to solve the problem: I add a new .c file in controllers, but I compile failed in prod mode, the error is : he error is: cache\kickstart.c(951):error C2198: "esp_controller_kickstart_stats":too few parameters for the call
+cache\kickstart.c(951):error C2198: "esp_controller_kickstart_mapping":too few parameters for the call
